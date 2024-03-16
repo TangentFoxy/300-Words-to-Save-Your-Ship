@@ -1,0 +1,96 @@
+:: StoryTitle
+300 Words to Save Your Ship
+
+
+:: StoryData
+{
+  "ifid": "ED9DA56D-3433-44EE-8347-4C54A0531A86",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Airlocks {"position":"775,525","size":"100,100"}
+Choosing to vent those areas has shortened your supply of air.
+
+There are minor hull breaches in multiple locations, but [[sealing|sealing2]] them to save what air you have left would kill much of your remaining crew.
+
+The primary reactor is melting down. You must attempt emergency [[cooling|Lose]] in order to survive with the remaining life support.
+
+
+
+:: Lose [ending] {"position":"900,650","size":"100,100"}
+The attempt fails. You waited too long.
+
+The meltdown kills most quickly.
+
+Those surviving .. die slowly.
+
+[[Restart|Start]]?
+
+
+
+:: Start {"position":"900,400","size":"100,100"}
+There are fires all over the ship. [[Airlocks]] can have them out quickly, but life support is low on oxygen.
+
+There are minor hull breaches in multiple locations, but [[sealing]] them to save air would kill much of your crew.
+
+The primary reactor is close to meltdown. You can attempt emergency [[cooling]], but if it doesn't work, you will lock out your only chance to [[jettison]] the core.
+
+
+
+:: StoryAuthor {"position":"700,100","size":"100,100"}
+Created by: Guard13007
+(also known as Tangent)
+
+Please consider supporting me <a href="https://paypal.me/guard13007">through PayPal</a>. I am in danger of becoming homeless.
+
+
+:: Win [ending] {"position":"1125,525","size":"100,100"}
+You have managed to stave off defeat. Your crippled ship limps home, and you don't lose any more crew than you had to.
+
+[[Restart|Start]]?
+
+
+
+:: cooling {"position":"1200,400","size":"100,100"}
+It seems to have worked!
+
+But there are still fires all over the ship. They are eating up what little life support is left. You have to [[seal|Win]] those areas off.
+
+
+
+:: disabledPassageFooter {"position":"1050,100","size":"200,100"}
+
+<hr/>
+
+(Please consider supporting me <a href="https://paypal.me/guard13007">through PayPal</a>. I am in danger of becoming homeless very soon.)
+
+
+:: disabledPassageHeader {"position":"825,100","size":"200,100"}
+Test Header
+
+
+:: jettison {"position":"1100,250","size":"100,100"}
+You're saved from that mess, but now power is nearly gone.
+
+Those fires can't be fought anymore, not enough power. [[Seal|Win]] those areas off.
+
+
+
+:: sealing {"position":"925,275","size":"100,100"}
+Saving what air was left in those areas and sealing them off has saved some oxygen..
+
+..but what really raised your chances of survival was the significant reduction in crew.
+
+The reactor is melting down. You can still attempt emergency [[cooling]], but it's beginning to look like a better idea to [[jettison]] the core.
+
+
+
+:: sealing2 {"position":"1000,525","size":"100,100"}
+The choice is tough, but the remaining crew will survive..
+
+..if you can survive after [[ejecting|Win]] the reactor. It's too late to attempt emergency cooling.
+
